@@ -9,6 +9,6 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 1. Install Qt 5.6 </br> 
 2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
-<b>Contributors:</b></br>
+<b>Contributors:</b> Emma Thompson </br>
 <b>Credits:</b></br>
 <b>License:</b></br>
