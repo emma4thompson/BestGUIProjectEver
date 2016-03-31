@@ -10,5 +10,5 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
 <b>Contributors:</b> Emma Thompson </br>
-<b>Credits:</b></br>
-<b>License:</b></br>
+<b>Credits:</b>Inspired by the fact that taking stats is difficult and technology is awesome.</br>
+<b>License:</b>None</br>
