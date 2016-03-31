@@ -5,7 +5,7 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 <b>Description:</b> An application designed to allow easy, simple statistics recording for the Hosanna Lady Lions Volleyball team.</br>
 <b>Technologies:</b> C++, Qt </br>
 <b>Screenshots:</b> </br>
-<b>Installation Instructions:</b> 
+<b>Installation Instructions:</b> </br>  
 1. Install Qt 5.6 </br> 
 2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
