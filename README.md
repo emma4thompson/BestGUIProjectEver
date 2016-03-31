@@ -6,8 +6,8 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 <b>Technologies:</b> C++, Qt </br>
 <b>Screenshots:</b> </br>
 <b>Installation Instructions:</b> 
-1. Install Qt 5.6 </b> 
-2. Open project </b> 
+1. Install Qt 5.6 </br> 
+2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
 <b>Contributors:</b></br>
 <b>Credits:</b></br>
