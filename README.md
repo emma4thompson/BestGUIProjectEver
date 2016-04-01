@@ -1,11 +1,11 @@
 # BestGUIProjectEver
 GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/logo2.png)
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/logo2.png) </br>
 <b>Description:</b> An application designed to allow easy, simple statistics recording for the Hosanna Lady Lions Volleyball team.</br>
 <b>Technologies:</b> C++, Qt </br>
 <b>Screenshots (imagined) :</b> </br>
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash_screen_idea.png)
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash_screen_idea.png) </br>
 1. Splash screen: "waving" gradient, bouncing volleyball, logo, Two Steps from Hell music </br>
 2. Buttons are volleyballs, lion roar on button push </br>
 3. Shatter animations </br>
