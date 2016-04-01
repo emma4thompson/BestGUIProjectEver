@@ -6,6 +6,10 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 <b>Technologies:</b> C++, Qt </br>
 <b>Screenshots (imagined) :</b> </br>
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash_screen_idea.png) </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/stats_idea_screenshot.jpeg) </br>
+A combination of this ^ </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/stats_idea_screenshot2.jpeg) </br>
+And this ^ but with unforced errors too! </br>
 1. Splash screen: "waving" gradient, bouncing volleyball, logo, Two Steps from Hell music </br>
 2. Buttons are volleyballs, lion roar on button push </br>
 3. Shatter animations </br>
