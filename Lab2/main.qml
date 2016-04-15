@@ -48,7 +48,7 @@ Window {
     Audio
     {
         id: playRoar
-        source: "C:/msysgit/cst_238/ProjectTest/src/LionRoar.wav"
+        source: "LionRoar.wav"
         autoLoad: true
     }
 
