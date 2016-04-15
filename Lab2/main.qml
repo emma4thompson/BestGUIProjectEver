@@ -38,7 +38,7 @@ Window {
 
         Image{
             id: logo
-            source: "img/logo_trans.png"
+            source: "logo_trans.png"
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
             anchors.topMargin: 100
@@ -121,7 +121,7 @@ Window {
         id: shadow;
         anchors.horizontalCenter: parent.horizontalCenter
         y: volleyball.minHeight + volleyball.height
-        source: "img/shadow.png"
+        source: "shadow.png"
     }
 
     Image {
@@ -133,7 +133,7 @@ Window {
 
         anchors.horizontalCenter: parent.horizontalCenter
         y: minHeight
-        source: "img/volleyball.png"
+        source: "volleyball.png"
 
     }
 }
