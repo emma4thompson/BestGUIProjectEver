@@ -24,7 +24,7 @@ And this ^ but with unforced errors too! </br>
 2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
 <b>Contribution Guidelines</b> Will probably need help with all of it. </br>
-<b>Bugs:</b> Welllllllll nothing exists yet.....</br>
+<b>Bugs:</b> This app will only support up to 12 players.</br>
 <b>Contributors:</b> So far, just Emma Thompson </br>
 <b>Credits:</b> Inspired by the fact that taking stats is difficult and technology is awesome.</br>
 <b>License:</b> None (yet?)</br>
