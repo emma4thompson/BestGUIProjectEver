@@ -4,11 +4,12 @@ GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/logo2.png) </br>
 <b>Description:</b> An application designed to allow easy, simple statistics recording for the Hosanna Lady Lions Volleyball team.</br>
 <b>Technologies:</b> C++, Qt, probably others </br>
-<b>Screenshots/Imagined Awesomeness:</b> </br>
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash_screen_idea.png) </br>
-The two following screenshots are taken from the current version of the program. The goal is to eventually have the ball bounce across the screen as shown above.</br>
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash1.png) </br>
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash2.png) </br>
+<b>Screenshots:</b> </br>
+The following screenshots are taken from the current version of the program. The goal is to eventually have the ball bounce across the screen as shown above.</br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash3.png) </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash4.png) </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash5.png) </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash6.png) </br>
 The stat-taking area of the program should look something like this:
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/stats_idea_screenshot.jpeg) </br>
 A combination of this ^ </br>
