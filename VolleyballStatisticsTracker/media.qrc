@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>10_Invincible.wav</file>
-        <file>LionRoar.wav</file>
+        <file>button-16.wav</file>
     </qresource>
 </RCC>

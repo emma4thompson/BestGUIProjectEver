@@ -27,6 +27,11 @@ Player::Player(QString name, int num)
 Player::Player()
 {}
 
+void Player::setPlayerName(QString name)
+{
+    p_name = name;
+}
+
 QString Player::getPlayerName()
 {
     return p_name;
@@ -152,4 +157,94 @@ int Player::getDoubleContact()
 int Player::getOutOfRotation()
 {
     return out_of_rotation;
+}
+
+void Player::setAttackError(int stat)
+{
+    attack_error = stat;
+}
+
+void Player::setAttackZero(int stat)
+{
+    attack_zero = stat;
+}
+
+void Player::setAssist(int stat)
+{
+    assist = stat;
+}
+
+void Player::setServePlus(int stat)
+{
+    serve_plus = stat;
+}
+
+void Player::setServeMinus(int stat)
+{
+    serve_minus = stat;
+}
+
+void Player::setServeAce(int stat)
+{
+    serve_ace = stat;
+}
+
+void Player::setDig(int stat)
+{
+    dig = stat;
+}
+
+void Player::setSRecPlus(int stat)
+{
+    s_rec_plus = stat;
+}
+
+void Player::setSRecMinus(int stat)
+{
+    s_rec_minus = stat;
+}
+
+void Player::setSRecZero(int stat)
+{
+    s_rec_zero = stat;
+}
+
+void Player::setSoloBlock(int stat)
+{
+    solo_block = stat;
+}
+
+void Player::setBlockAssist(int stat)
+{
+    block_assist = stat;
+}
+
+void Player::setBallDrop(int stat)
+{
+    ball_drop = stat;
+}
+
+void Player::setFootFault(int stat)
+{
+    foot_fault = stat;
+}
+
+void Player::setNetFault(int stat)
+{
+    net_fault = stat;
+}
+
+void Player::setLift(int stat)
+{
+    lift = stat;
+}
+
+void Player::setDoubleContact(int stat)
+{
+    double_contact = stat;
+}
+
+void Player::setOutOfRotation(int stat)
+{
+    out_of_rotation = stat;
 }

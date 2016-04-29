@@ -13,6 +13,7 @@ public:
     Player();
 public slots:
     QString getPlayerName();
+    void setPlayerName(QString);
     int getPlayerNumber();
     void setPlayerNumber(int num);
     QString makeQString(int stat);
@@ -37,6 +38,25 @@ public slots:
     int getLift();
     int getDoubleContact();
     int getOutOfRotation();
+    //
+    void setAttackError(int);
+    void setAttackZero(int);
+    void setAssist(int);
+    void setServePlus(int);
+    void setServeMinus(int);
+    void setServeAce(int);
+    void setDig(int);
+    void setSRecPlus(int);
+    void setSRecMinus(int);
+    void setSRecZero(int);
+    void setSoloBlock(int);
+    void setBlockAssist(int);
+    void setBallDrop(int);
+    void setFootFault(int);
+    void setNetFault(int);
+    void setLift(int);
+    void setDoubleContact(int);
+    void setOutOfRotation(int);
     //~Player();
 
 //private:
