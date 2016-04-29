@@ -9,10 +9,9 @@ The following screenshots are taken from the current version of the program.</br
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash3.png) </br>
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash4.png) </br>
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash5.png) </br>
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/splash6.png) </br>
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/roster1.png) </br>
 The stat-taking area of the program::
-![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/stats1.jpeg) </br>
+![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/stats1.png) </br>
 <b>Installation Instructions:</b>  
 1. Install Qt 5.6 </br> 
 2. Open project </br> 
