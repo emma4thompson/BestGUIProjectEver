@@ -1,5 +1,4 @@
 # BestGUIProjectEver
-GUI Project for Oregon Tech CST 238 Spring 2016 </br>
 
 ![Alt text](https://github.com/emma4thompson/BestGUIProjectEver/blob/master/logo2.png) </br>
 <b>Description:</b> An application designed to allow easy, simple statistics recording for the Hosanna Lady Lions Volleyball team.</br>
