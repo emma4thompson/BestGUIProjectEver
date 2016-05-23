@@ -9,5 +9,6 @@
         <file>sound_off.png</file>
         <file>sound_on.png</file>
         <file>RosterPrompt.qml</file>
+        <file>ScorePrompt.qml</file>
     </qresource>
 </RCC>

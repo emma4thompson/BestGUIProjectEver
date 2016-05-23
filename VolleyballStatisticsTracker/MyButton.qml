@@ -23,7 +23,6 @@ Rectangle {
         onPressed: { playRoar.play() }
     }
 
-
     Text{
         id:start
         text: "Start"

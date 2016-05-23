@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include "player.h"
+#include "match.h"
 
 int main(int argc, char *argv[])
 {
@@ -20,6 +21,7 @@ int main(int argc, char *argv[])
     Player p10("Emma", 4);
     Player p11("Emma", 4);
     Player p12("Emma", 4);
+    Match m(3);
 
     engine.rootContext()->setContextProperty("player1", &p1);
     engine.rootContext()->setContextProperty("player2", &p2);
@@ -33,6 +35,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("player10", &p10);
     engine.rootContext()->setContextProperty("player11", &p11);
     engine.rootContext()->setContextProperty("player12", &p12);
+    engine.rootContext()->setContextProperty("match", &m);
 
     QCoreApplication::setApplicationName("Lab2");
     QCoreApplication::setOrganizationName("EMMA");

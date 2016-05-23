@@ -119,7 +119,7 @@ Window {
     RosterPrompt{
         id: roster_prompt
         width: parent.width * .52
-        height: parent.height * .62
+        height: parent.height * .7
         anchors.centerIn: parent
         visible: false
         z: 10
@@ -216,7 +216,7 @@ Window {
     Audio
     {
         id: playRoar
-        //source: "/LionRoar.wav"
+        source: "/LionRoar.wav"
         autoLoad: true
     }
 
@@ -256,6 +256,36 @@ Window {
         }
     }
 
+//    ScorePrompt{
+//        id: score_prompt
+//        visible: false
+//        width: parent.width * .125
+//        height: parent.height * .4
+//        anchors.centerIn: parent
+//        z: 10
+
+//    }
+
+
+//    Rectangle{ visible: false; id: set1; height: 30; width: 50; radius: 5; anchors.top: parent.top; anchors.topMargin: 95; anchors.left: parent.left; anchors.leftMargin: 704; Text { text: "One"; font.family: "Copperplate Gothic Bold"; font.underline: true; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
+//    Rectangle{ visible: false; id: set2; height: 30; width: 50; radius: 5; anchors.top: parent.top; anchors.topMargin: 95; anchors.left: parent.left; anchors.leftMargin: 802; Text { text: "Two"; font.family: "Copperplate Gothic Bold"; font.underline: true; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
+//    Rectangle{ visible: false; id: set3; height: 30; width: 50; radius: 5; anchors.top: parent.top; anchors.topMargin: 95; anchors.left: parent.left; anchors.leftMargin: 890; Text { text: "Three"; font.family: "Copperplate Gothic Bold"; font.underline: true; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
+//    Rectangle{ visible: false; id: set4; height: 30; width: 50; radius: 5; anchors.top: parent.top; anchors.topMargin: 95; anchors.left: parent.left; anchors.leftMargin: 998; Text { text: "Four"; font.family: "Copperplate Gothic Bold"; font.underline: true; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
+//    Rectangle{ visible: false; id: set5; height: 30; width: 50; radius: 5; anchors.top: parent.top; anchors.topMargin: 95; anchors.left: parent.left; anchors.leftMargin: 1102; Text { text: "Five"; font.family: "Copperplate Gothic Bold"; font.underline: true; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
+
+
+//    Rectangle{ visible: false; id: s1h; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 700; Text{ id: s1h_text; onVisibleChanged: { text = match.getSet1_h(match.setSet1_h(match.getSet1_h())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s1h.visible = !s1h.visible } } }
+//    Rectangle{ visible: false; id: s2h; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 800; Text{ id: s2h_text; onVisibleChanged: { text = match.getSet2_h(match.setSet2_h(match.getSet2_h())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s2h.visible = !s2h.visible } } }
+//    Rectangle{ visible: false; id: s3h; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 900; Text{ id: s3h_text; onVisibleChanged: { text = match.getSet3_h(match.setSet3_h(match.getSet3_h())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s3h.visible = !s3h.visible } } }
+//    Rectangle{ visible: false; id: s4h; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 1000; Text{ id: s4h_text; onVisibleChanged: { text = match.getSet4_h(match.setSet4_h(match.getSet4_h())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s4h.visible = !s4h.visible } } }
+//    Rectangle{ visible: false; id: s5h; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 1100; Text{ id: s5h_text; onVisibleChanged: { text = match.getSet5_h(match.setSet5_h(match.getSet5_h())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s5h.visible = !s5h.visible } } }
+
+//    Rectangle{ visible: false; id: s1o; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 740; Text{ id: s1o_text; onVisibleChanged: { text = match.getSet1_o(match.setSet1_o(match.getSet1_o())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s1o.visible = !s1o.visible } } }
+//    Rectangle{ visible: false; id: s2o; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 840; Text{ id: s2o_text; onVisibleChanged: { text = match.getSet2_o(match.setSet2_o(match.getSet2_o())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s2o.visible = !s2o.visible } } }
+//    Rectangle{ visible: false; id: s3o; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 940; Text{ id: s3o_text; onVisibleChanged: { text = match.getSet3_o(match.setSet3_o(match.getSet3_o())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s3o.visible = !s3o.visible } } }
+//    Rectangle{ visible: false; id: s4o; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 1040; Text{ id: s4o_text; onVisibleChanged: { text = match.getSet4_o(match.setSet4_o(match.getSet4_o())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s4o.visible = !s4o.visible } } }
+//    Rectangle{ visible: false; id: s5o; height: parent.height * .033; width: parent.width * .03; radius: 5; anchors.top: parent.top; anchors.topMargin: 120; anchors.left: parent.left; anchors.leftMargin: 1140; Text{ id: s5o_text; onVisibleChanged: { text = match.getSet5_o(match.setSet5_o(match.getSet5_o())); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } MouseArea{ anchors.fill:parent; onClicked: { buttonPress.play(); grid.visible = !grid.visible; score_prompt.visible = !score_prompt.visible; animation.running = !animation.running; s5o.visible = !s5o.visible } } }
+
     Grid{
         id: grid
         visible: false
@@ -264,12 +294,14 @@ Window {
         anchors.left: parent.left
         anchors.leftMargin: 175
         anchors.top: parent.top
-        anchors.topMargin: 150
+        anchors.topMargin: 200
         horizontalItemAlignment: Grid.AlignHCenter;
         verticalItemAlignment: Grid.AlignTop;
         rows: 13
         columns: 21
         spacing: 10
+
+        Rectangle{ id: opponent; anchors.bottom: b1.top; anchors.bottomMargin: 80; anchors.left: b1.left; anchors.leftMargin: 15; Text{ id: opp; onVisibleChanged: { text = "Hosanna vs. " + match.getOpponent(); } font.family: "Copperplate Gothic Bold"; font.pointSize: 16; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
 
         Rectangle{ id: player; anchors.bottom: b1.top; anchors.bottomMargin: 30; anchors.left: b1.left; anchors.leftMargin: 15; Text{ text: "Player"; font.family: "Copperplate Gothic Bold"; font.pointSize: 14; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }
         Rectangle{ id: attack; anchors.bottom: b1.top; anchors.bottomMargin: 30; anchors.left: b3.left; anchors.leftMargin: 20; Text{ text: "Attack"; font.family: "Copperplate Gothic Bold"; font.pointSize: 14; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter; } }

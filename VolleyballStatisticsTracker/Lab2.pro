@@ -5,7 +5,6 @@ CONFIG += c++11
 
 SOURCES += main.cpp \
     match.cpp \
-    roster.cpp \
     player.cpp
 
 RESOURCES += qml.qrc \
@@ -19,7 +18,6 @@ include(deployment.pri)
 
 HEADERS += \
     match.h \
-    roster.h \
     player.h
 
 DISTFILES += \

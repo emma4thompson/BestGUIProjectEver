@@ -2,7 +2,6 @@
 #define PLAYER_H
 #include <QObject>
 #include <QString>
-#include "statistic.h"
 
 class Player : public QObject
 {

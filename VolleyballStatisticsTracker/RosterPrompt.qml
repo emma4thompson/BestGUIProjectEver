@@ -4,7 +4,22 @@ import QtQuick.Controls 1.4
 Rectangle {
     id: roster
     color: "teal"
+    width: parent.width * .3
+    height: parent.height * .4
     radius: 10
+
+    TextField {
+        id: opp
+        font.family: "Copperplate Gothic Bold"
+        font.pointSize: 12
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.topMargin: 50
+        placeholderText: qsTr("Opponent")
+        width: 150
+        height: 30
+        z: 8
+    }
 
     Rectangle{
         id: left
@@ -21,7 +36,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 50
+            anchors.topMargin: 100
             placeholderText: qsTr("Player 1")
             width: 150
             height: 30
@@ -47,7 +62,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 100
+            anchors.topMargin: 150
             placeholderText: qsTr("Player 2")
             width: 150
             height: 30
@@ -71,7 +86,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 150
+            anchors.topMargin: 200
             placeholderText: qsTr("Player 3")
             width: 150
             height: 30
@@ -96,7 +111,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 200
+            anchors.topMargin: 250
             placeholderText: qsTr("Player 4")
             width: 150
             height: 30
@@ -120,7 +135,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 250
+            anchors.topMargin: 300
             placeholderText: qsTr("Player 5")
             width: 150
             height: 30
@@ -144,7 +159,7 @@ Rectangle {
             font.pointSize: 12
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: 300
+            anchors.topMargin: 350
             placeholderText: qsTr("Player 6")
             width: 150
             height: 30
@@ -171,9 +186,10 @@ Rectangle {
             border.width: 2
             border.color: "black"
             z: 5
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 75
             anchors.top: parent.top
-            anchors.topMargin: 370
+            anchors.topMargin: 420
             Text{
                 text: "Clear"
                 font.family: "Copperplate Gothic Bold"
@@ -212,6 +228,7 @@ Rectangle {
                     p10_num.text = ""
                     p11_num.text = ""
                     p12_num.text = ""
+                    match.text = ""
                 }
             }
         }
@@ -238,6 +255,8 @@ Rectangle {
                     //roster_prompt.visible = false
 
                     buttonPress.play();
+
+                    match.setOpponent(opp.text === "" ? "Opponent" : opp.text)
 
                     player1.setPlayerName(p1.text === "" ? "Player 1" : p1.text)
                     player2.setPlayerName(p2.text === "" ? "Player 2" : p2.text)
@@ -269,6 +288,23 @@ Rectangle {
                     gear.visible = true
                     grid.visible = true
                     edit_roster.visible = true
+
+                    s1h.visible = true
+                    s2h.visible = true
+                    s3h.visible = true
+                    s4h.visible = true
+                    s5h.visible = true
+                    s1o.visible = true
+                    s2o.visible = true
+                    s3o.visible = true
+                    s4o.visible = true
+                    s5o.visible = true
+
+                    set1.visible = true
+                    set2.visible = true
+                    set3.visible = true
+                    set4.visible = true
+                    set5.visible = true
                 }
             }
         }
@@ -277,9 +313,11 @@ Rectangle {
             id: p7
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            //anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 50
+            anchors.topMargin: 100
             placeholderText: qsTr("Player 7")
             width: 150
             height: 30
@@ -302,9 +340,10 @@ Rectangle {
             id: p8
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 100
+            anchors.topMargin: 150
             placeholderText: qsTr("Player 8")
             width: 150
             height: 30
@@ -327,9 +366,10 @@ Rectangle {
             id: p9
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 150
+            anchors.topMargin: 200
             placeholderText: qsTr("Player 9")
             width: 150
             height: 30
@@ -352,9 +392,10 @@ Rectangle {
             id: p10
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 200
+            anchors.topMargin: 250
             placeholderText: qsTr("Player 10")
             width: 150
             height: 30
@@ -377,9 +418,10 @@ Rectangle {
             id: p11
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 250
+            anchors.topMargin: 300
             placeholderText: qsTr("Player 11")
             width: 150
             height: 30
@@ -402,9 +444,10 @@ Rectangle {
             id: p12
             font.family: "Copperplate Gothic Bold"
             font.pointSize: 12
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 165
             anchors.top: parent.top
-            anchors.topMargin: 300
+            anchors.topMargin: 350
             placeholderText: qsTr("Player 12")
             width: 150
             height: 30
@@ -432,9 +475,10 @@ Rectangle {
             border.width: 2
             border.color: "black"
             z: 5
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.right: parent.right
+            anchors.rightMargin: 135
             anchors.top: parent.top
-            anchors.topMargin: 370
+            anchors.topMargin: 420
             Text{
                 text: "Confirm"
                 font.family: "Copperplate Gothic Bold"
@@ -475,10 +519,29 @@ Rectangle {
                     player11.setPlayerNumber(p11_num.text === "" ? "11" : p11_num.text)
                     player12.setPlayerNumber(p12_num.text === "" ? "12" : p12_num.text)
 
+                    match.setOpponent(opp.text === "" ? "Opponent" : opp.text)
+
                     roster.visible = false
                     gear.visible = true
                     grid.visible = true
                     edit_roster.visible = true
+
+//                    s1h.visible = true
+//                    s2h.visible = true
+//                    s3h.visible = true
+//                    s4h.visible = true
+//                    s5h.visible = true
+//                    s1o.visible = true
+//                    s2o.visible = true
+//                    s3o.visible = true
+//                    s4o.visible = true
+//                    s5o.visible = true
+
+//                    set1.visible = true
+//                    set2.visible = true
+//                    set3.visible = true
+//                    set4.visible = true
+//                    set5.visible = true
                 }
             }
         }
