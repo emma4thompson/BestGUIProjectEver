@@ -15,7 +15,7 @@ The stat-taking area of the program::
 1. Install Qt 5.6 </br> 
 2. Open project </br> 
 3. Clean all, run qmake, build all, run.  </br>
-<b>Contribution Guidelines</b> Will probably need help with all of it. </br>
+<b>Contribution Guidelines</b> Got assistance from Russ which was awesome. </br>
 <b>Bugs:</b> This app will only support up to 12 players.</br>
 <b>Contributors:</b> Emma Thompson, obvs and Russ cause he's the bomb </br>
 <b>Credits:</b> Inspired by the fact that taking stats is difficult and technology is awesome.</br>
